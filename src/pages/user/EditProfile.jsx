@@ -122,9 +122,9 @@ const EditProfile = ({ setShowEditProfile, setUserInfo }) => {
 
   return (
     <>
-      <div className="fixed inset-0 bg-white/40">
-        <div className="flex flex-col z-10 min-h-screen w-[60%] bg-white side-pane fixed top-0 right-0 shadow-lg border-1 border-gray-100">
-          <div className="flex items-center justify-between p-6 border-b-1 border-gray-200 shadow-xs text-gray-700 text-[18px] font-[500]">
+      <div className="fixed inset-0 bg-white/40 z-10">
+        <div className="flex flex-col min-h-screen w-[60%] bg-white side-pane fixed top-0 right-0 shadow-lg border-1 border-gray-100">
+          <div className="flex items-center justify-between p-6 border-b-1 bg-white border-gray-200 shadow-xs text-gray-700 text-[18px] font-[500]">
             <div>Edit Profile</div>
             <RxCross2
               className="cursor-pointer hover:bg-gray-300 rounded-[50%] w-[25px] h-[25px] p-1"
